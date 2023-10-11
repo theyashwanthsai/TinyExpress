@@ -1,11 +1,10 @@
-let express = require('./src/express')
-const app = express()
+let myexpress = require('./src/myexpress');
+const app = myexpress();
 
 app.get('/', (req, res) => {
-    res.writeHead(200)
-    res.write('Hello world!');
+    res.writeHead(200);
+    res.write("HEllow");
     res.end();
 });
 
-
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(3000, () => console.log('example app listening on port 3000!'))
