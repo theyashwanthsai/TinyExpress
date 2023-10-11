@@ -1,6 +1,6 @@
-# TinyExpress Readme
+# TinyExpress 
 
-## Project Overview
+## Overview
 
 TinyExpress is a lightweight and simplified clone of the popular Node.js web application framework, Express.js. This repository provides a fundamental implementation of key Express features, making it an excellent resource for learning and experimentation.
 
@@ -10,7 +10,7 @@ TinyExpress provides the following key features:
 
 1. **Routing**: Define routes for your application, including handling different HTTP methods like GET, POST, PUT, and DELETE.
 
-2. **Middleware**: Utilize middleware functions to perform tasks such as request processing, authentication, logging, and error handling. **ToDO**
+2. **Middleware**: Utilize middleware functions to perform tasks such as request processing, authentication, logging, and error handling. **ToDo**
 
 3. **Request and Response Objects**: Access and manipulate request and response objects for easy interaction with clients.
 
@@ -21,7 +21,7 @@ TinyExpress provides the following key features:
 ## Getting Started
 
 ## Basic Usage
-
+> Clone this repo, and in index.js file, you can start with the basic hello-world:
 ```Javascript
 let myexpress = require('./src/myexpress'); //import the module
 const app = myexpress();
