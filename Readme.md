@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-TinyExpress is a lightweight JavaScript framework designed to mimic the functionality of Express.js, a popular web application framework for Node.js. While Express.js is powerful and feature-rich, it may be overkill for some smaller projects. TinyExpress offers a simpler alternative for building web applications with a minimal footprint.
+TinyExpress is a lightweight and simplified clone of the popular Node.js web application framework, Express.js. This repository provides a fundamental implementation of key Express features, making it an excellent resource for learning and experimentation.
 
 ## Features
 
